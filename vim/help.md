@@ -22,3 +22,11 @@ noremap <F4> :TlistToggle<CR>
 noremap <F6> :!ctags -R<CR>		
 
 '''
+
+#supertab
+##下载
+http://www.vim.org/scripts/script.php?script_id=1643
+##安装
+用Vim打开.vba安装包文件。
+在Vim命令行下运行命令“UseVimball ~/.vim”。此命令将安装包解压缩到~/.vim目录。VImball安装方式的便利之处在于你可以在任何目录打开.vba包安装，而不用切换到安装目的地目录。而且不用运行helptags命令安装帮助文档。
+在~/.vimrc文件中加入以下这行：let g:SuperTabDefaultCompletionType="context" 

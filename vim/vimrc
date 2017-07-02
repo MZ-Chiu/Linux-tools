@@ -70,3 +70,4 @@ noremap <F4> :TlistToggle<CR>
 noremap <F6> :!ctags -R<CR>		
 
 " --The following support by supertap
+let g:SuperTabDefaultCompletionType="context"

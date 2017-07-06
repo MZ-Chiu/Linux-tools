@@ -54,7 +54,15 @@ endif
 
 " -Add by Simon Chiu in 2017-7-2
 " --The following support by vim
-set cin
+set nu
+set autoindent
+set cindent
+set tabstop=4 
+set softtabstop=4 
+set shiftwidth=4 
+
+" --The following support by ctags
+set tags=./tags;,tags
 
 " --The following support by taglist
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
